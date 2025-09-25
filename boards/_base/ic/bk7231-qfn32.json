@@ -70,7 +70,8 @@
 				"I2C": "1_SDA",
 				"JTAG": "TMS",
 				"I2S": "MCLK",
-				"FLASH": "^FCS"
+				"FLASH": "^FCS",
+				"ADC": 6
 			},
 			"20": {
 				"C_NAME": "GPIO20",
