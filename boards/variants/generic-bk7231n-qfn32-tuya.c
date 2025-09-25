@@ -35,17 +35,17 @@ PinInfo lt_arduino_pin_info_list[PINS_COUNT] = {
 	// D12: P20, I2C1_SCL, TCK, FSCK
 	{GPIO20, PIN_GPIO | PIN_IRQ | PIN_I2C | PIN_JTAG,           PIN_NONE, 0},
 	// D13: P21, I2C1_SDA, TMS, MCLK, ^FCS
-	{GPIO21, PIN_GPIO | PIN_IRQ | PIN_I2C | PIN_I2S | PIN_JTAG, PIN_NONE, 0},
+	{GPIO21, PIN_GPIO | PIN_IRQ | PIN_ADC | PIN_I2C | PIN_I2S | PIN_JTAG, PIN_NONE, 0},
 	// D14: P22, TDI, FSI
-	{GPIO22, PIN_GPIO | PIN_IRQ | PIN_JTAG,                     PIN_NONE, 0},
+	{GPIO22, PIN_GPIO | PIN_IRQ | PIN_ADC | PIN_JTAG,                     PIN_NONE, 0},
 	// D15: P23, ADC3, TDO, FSO
 	{GPIO23, PIN_GPIO | PIN_IRQ | PIN_ADC | PIN_JTAG,           PIN_NONE, 0},
 	// D16: P24, PWM4
-	{GPIO24, PIN_GPIO | PIN_IRQ | PIN_PWM,                      PIN_NONE, 0},
+	{GPIO24, PIN_GPIO | PIN_IRQ | PIN_ADC | PIN_PWM,            PIN_NONE, 0},
 	// D17: P26, PWM5, IRDA
-	{GPIO26, PIN_GPIO | PIN_IRQ | PIN_PWM,                      PIN_NONE, 0},
+	{GPIO26, PIN_GPIO | PIN_IRQ | PIN_ADC | PIN_PWM,            PIN_NONE, 0},
 	// D18: P28, DN
-	{GPIO28, PIN_GPIO | PIN_IRQ,                                PIN_NONE, 0},
+	{GPIO28, PIN_GPIO | PIN_IRQ | PIN_ADC,                                PIN_NONE, 0},
 };
 
 PinInfo *lt_arduino_pin_gpio_map[] = {
