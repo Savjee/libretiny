@@ -14,12 +14,12 @@ static GPIO_INDEX pwmToGpio[] = {
 #if CFG_SOC_NAME == SOC_BK7231N
 static GPIO_INDEX adcToGpio[] = {
 	-1,		 // ADC0 - VBAT
-	GPIONUM, // ADC1
-	GPIONUM, // ADC2
-	GPIO23,	 // ADC3
-	GPIONUM, // ADC4
-	GPIONUM, // ADC5
-	GPIONUM, // ADC6
+	GPIO26, // ADC1
+	GPIO24, // ADC2
+	GPIO23, // ADC3
+	GPIO28, // ADC4
+	GPIO22, // ADC5
+	GPIO21, // ADC6
 	GPIONUM, // ADC7
 };
 #else
